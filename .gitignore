@@ -1,0 +1,25 @@
+# === Archivos compilados de Java ===
+# Ignora los archivos .class generados por el compilador.
+*.class
+
+# === Directorios de salida ===
+# Ignora las carpetas donde Eclipse guarda los archivos compilados.
+bin/
+build/
+
+# === Archivos de Eclipse ===
+# Ignora los archivos de configuración específicos del IDE.
+.project
+.classpath
+.settings/
+
+# === Archivos de IDE genéricos ===
+# Ignora otros archivos comunes de configuración de IDEs (como IntelliJ).
+.idea/
+*.iml
+*.iws
+
+# === Archivos de Sistema Operativo ===
+# Ignora archivos basura de macOS y Windows.
+.DS_Store
+Thumbs.db
